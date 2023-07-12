@@ -15,6 +15,14 @@ namespace LineComparision
             else
                 Console.WriteLine("lines are not equal");
 
+            if (line1length.CompareTo(line2length) == 0)
+                Console.WriteLine("Lines are equal");
+            if (line1length.CompareTo(line2length) <0)
+                Console.WriteLine("Line1 < line 2");
+            if (line1length.CompareTo(line2length) > 0)
+                Console.WriteLine("Line1 > line 2");
+
+
         }
     }
 }
